@@ -44,8 +44,7 @@ def getDataPoint(quote):
 
 def getRatio(price_a, price_b):
     """ Get ratio of price_a and price_b """
-    return price_a/price_b
-
+    return price_a/price_b if b != 0 else None
 
 # Main
 if __name__ == "__main__":
